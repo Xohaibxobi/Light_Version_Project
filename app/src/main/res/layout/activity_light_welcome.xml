@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LightWelcomeActivity">
+
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="54dp"></View>
+
+<!--    ?<RelativeLayout-->
+<!--        android:id="@+id/type_button"-->
+<!--        android:layout_width="380dp"-->
+<!--        android:layout_height="58dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:layout_marginBottom="36dp"-->
+<!--        android:background="@drawable/type_button"-->
+<!--        android:elevation="24dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="348dp"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:gravity="center_horizontal|center_vertical"-->
+<!--            android:lineHeight="22sp"-->
+<!--            android:lineSpacingExtra="3sp"-->
+<!--            android:text="@string/button"-->
+<!--            android:textAppearance="@style/button"-->
+<!--            android:textFontWeight="700"-->
+<!--            android:textStyle="bold" />-->
+<!--    </RelativeLayout>-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/round_shape"
+        android:paddingStart="16px"
+        android:paddingTop="18px"
+        android:paddingEnd="16px"
+        android:paddingBottom="18px"
+        android:shadowColor="@color/primary_500"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:text="Get Started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

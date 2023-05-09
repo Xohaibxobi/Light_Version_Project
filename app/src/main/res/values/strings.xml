@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Light Version Project</string>
+    <string name="button">Get Started</string>
+    <string name="let_s_you_in">Lets you in</string>
 </resources>

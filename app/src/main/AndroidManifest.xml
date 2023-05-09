@@ -12,6 +12,12 @@
         android:theme="@style/Theme.LightVersionProject"
         tools:targetApi="31">
         <activity
+            android:name=".LightLestYouIn"
+            android:exported="false" />
+        <activity
+            android:name=".LightWelcomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".LightSplashScreen"
             android:exported="false" />
         <activity
